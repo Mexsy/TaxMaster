@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_corp"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Review Corporate" />
+        <item
+            android:id="@+id/nav_rip"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="Review Individual Payer" />
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Register Customer"/>
+        <item
+            android:id="@+id/nav_assessments"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:title="Assessments"/>
+
+    </group>
+
+    <item
+        android:checkable="true"
+        android:checkableBehavior="single"
+        android:title="Manage account">
+        <menu>
+            <item
+                android:id="@+id/nav_reconfig"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Reconfigure app" />
+            <item
+                android:id="@+id/nav_pass_change"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:title="Log out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp" />
+        </menu>
+    </item>
+</menu>

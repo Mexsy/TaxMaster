@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.softalliance.taxofficer.softtaxmobile.Dialogs.SaveDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/aqua_blue">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorTheme">
+
+            <TextView
+                android:id="@+id/addmember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details have been saved. Would you like to continue?"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textAllCaps="false"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
